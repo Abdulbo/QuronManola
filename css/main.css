@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+  
+   background-color: rgb(44, 159, 204);
+    
+}
+
+.list {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.item {
+    width: 400px;
+    min-height: 100px;
+    text-decoration: none;
+    list-style-type: none;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px silver;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+}
+
+.item .header_info .header_text {
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px silver;
+    font-size: 20px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
